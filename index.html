@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <style>
+  .kes{
+    display: none;
+  }
+  </style>
+</head>
+<body>
+  <div id="my_syouhaisuu">
+    <h2>じゃんけんゲーム</h2>
+    <h2 id="suuji"></h2>
+  </div>
+  <div id="main">
+    <h1 id="title"></h1>
+    <h2 id="nanidasu"></h2>
+    <div id="jyanken_area">
+      <input type="image" src="img/guu.png" alt="グー" onclick="guudes(this);" value="グー" id="1" class="yukin jyanken">
+      <input type="image" src="img/tyoki.png" alt="チョキ" onclick="tyokides(this);" value="チョキ" id="2" class="yukin jyanken">
+      <input type="image" src="img/paa.png" alt="パー" onclick="paades(this);" value="パー" id="3" class="yukin jyanken">
+    </div>
+    <div id="text">
+      <p id="show"></p>
+      <p id="cpushow"></p>
+      <p id="kekka"></p>
+      <p id="syohai"></p>
+      <p id="owata"></p>
+    </div>
+  </div>
+</body>
+</html>
